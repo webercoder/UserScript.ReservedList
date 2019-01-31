@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name       Deckbox Reserved List
-// @namespace  https://deckbox.org/
+// @match      https://deckbox.org/
 // @version    1
 // @grant      none
 // ==/UserScript==
