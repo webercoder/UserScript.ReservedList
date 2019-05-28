@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Deckbox Reserved List",
+    "version": "1.0",
+    "description": "Adds a star next to each reserved list item on Deckbox.",
+    "content_scripts": [
+        {
+            "matches": ["*://*.deckbox.org/*"],
+            "js": ["reservedlist.user.js"]
+        }
+    ]
+}
